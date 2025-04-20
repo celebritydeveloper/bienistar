@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    background-color: tra;
+}
+
+.nav__active {
+    font-size: small;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.nav__inactive {
+    font-size: small;
+    font-weight: 500;
+    color: #6F6E6E;
+}
+
+.nav__inactive:hover {
+    color: #6F6E6E;
+}
+
+.nav__icon-inactive {
+    font-weight: 500;
+    color: #6F6E6E;
+}
+
+.nav__icon-inactive:hover {
+    color: #6F6E6E;
+}
+
+.nav__icon-active {
+    background-color: transparent;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.nav__icon-active:hover {
+    color: #6F6E6E;
+}

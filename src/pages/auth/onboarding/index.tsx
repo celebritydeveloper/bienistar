@@ -1,4 +1,5 @@
 import { Text, Button } from "@telegram-apps/telegram-ui";
+import { useNavigate } from "react-router-dom";
 
 import { Page } from "@/components/Page.jsx";
 import "./onboarding.css";
@@ -9,6 +10,8 @@ const [, e] = bem("onboard");
 
 
 export default function OnboardingPage() {
+  const navigate = useNavigate();
+
   return (
     <Page back={false}>
       <div className={e("bg-image")}>
@@ -23,6 +26,8 @@ export default function OnboardingPage() {
             mode="filled"
             stretched={true}
             className={e("button")}
+            onClick={() => navigate("/tabs/home")}
+            type="button"
           >
             Get Started
           </Button>

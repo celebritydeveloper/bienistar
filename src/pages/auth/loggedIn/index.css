@@ -1,0 +1,16 @@
+.page {
+    max-width: 100%;
+    min-height: calc(100dvh + 1px);
+    overflow: hidden;
+    padding-bottom: calc(24px + var(--bottom-safe));
+    padding-top: calc(24px + var(--tg-safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
+    width:100%
+}
+
+.page:not(.no-wrapper) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-left: 16px;
+    padding-right:16px
+}

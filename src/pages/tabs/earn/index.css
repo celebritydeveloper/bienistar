@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "NeuBlack";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "NeuBold";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "NeuRegular";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "NeuExtraBlack";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-XBlack.ttf");
+  }
+  
+  
+  .NeuBlack {
+    font-family: "NeuBlack";
+  }
+  
+  .NeuBold {
+    font-family: "NeuBold";
+  }
+  
+  .NeuRegular {
+    font-family: "Neugular";
+  }
+  
+  .NeuExtraBlack {
+    font-family: "NeuExtraBlack";
+  }
+
+
+.earn__cell {
+    background-color: transparent;
+    row-gap: 0;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    padding: 0px 5px;
+}
+
+.earn__item {
+    color: #FFFFFF;
+    font-family: "NeuBold";
+    font-weight: 600;
+    padding: 0 15px;
+}
+
+.earn__item-title {
+    color: #FFFFFF;
+    font-family: "NeuBlack";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.earn__item-subtitle {
+    color: #d1d1d1;
+    font-family: "NeuBold";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.earn__item-description {
+    color: #d1d1d1;
+    font-family: "NeuRegular";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+
+.earn__start-button {
+    align-items: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #282828;
+    border: none;
+    border-radius: 36px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    height: 36px;
+    justify-content: center;
+    min-width: 64px;
+    outline: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: all .2s ease;
+    /* transition-property: background; */
+    vertical-align: middle;
+    /* will-change: background */
+}
+
+.tasks-page .header {
+    margin-bottom: 16px
+}
+
+.tasks-page .header .title {
+    color: #fff;
+    font-family: NeuBlack;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    position: relative
+}
+
+.tasks-page .header .title sup {
+    color: #fff;
+    font-family: NeuRegular;
+    left: calc(100% + 6px);
+    position: absolute;
+    scale: .9;
+    top: 15%
+}
