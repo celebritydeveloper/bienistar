@@ -8,6 +8,8 @@ import { Page } from "@/components/Page.tsx";
 export const ThemeParamsPage: FC = () => {
   const tp = useSignal(themeParams.state);
 
+  //tp["accent"]
+
   return (
     <Page>
       <List>

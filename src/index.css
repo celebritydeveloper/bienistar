@@ -1,5 +1,43 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "NeuBlack";
+  src: url("./assets/fonts/NeueHaasUnicaPro-Black.ttf");
+}
+
+@font-face {
+  font-family: "NueBold";
+  src: url("./assets/fonts/NeueHaasUnicaPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NueRegular";
+  src: url("./assets/fonts/NeueHaasUnicaPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NueExtraBlack";
+  src: url("./assets/fonts/NeueHaasUnicaPro-XBlack.ttf");
+}
+
+
+.NeuBlack {
+  font-family: "NeuBlack";
+}
+
+.NueBold {
+  font-family: "NueBold";
+}
+
+.NueRegular {
+  font-family: "NueRegular";
+}
+
+.NueExtraBlack {
+  font-family: "NueExtraBlack";
+}
+
+
 body {
   background: var(--tg-theme-secondary-bg-color, white);
   padding: 0;
@@ -8,7 +46,12 @@ body {
 
 
 .bg-image {
-  background-image: url("./assets//images/onboard.jpg");
+  
+  background-image: linear-gradient(
+    to bottom left, 
+    rgba(22, 19, 19, 0.7), 
+    rgba(30, 30, 30, 0.9)
+), url("./assets//images/onboard.jpg");
   background-size: cover;
   background-position: center;
   display: flex;

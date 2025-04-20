@@ -12,6 +12,7 @@ import {
   themeParamsState,
   retrieveLaunchParams,
   emitEvent,
+  requestFullscreen
 } from "@telegram-apps/sdk-react";
 
 /**
@@ -59,6 +60,11 @@ export async function init(options: {
     });
   }
 
+  let tp: ThemeParams = {};
+  tp["accent_text_color"] = "#FFFFFF";
+  tp["text_color"] = "#FFFFFF";
+
+
   // Mount all components used in the project.
   mountBackButton.ifAvailable();
   restoreInitData();
@@ -67,7 +73,10 @@ export async function init(options: {
       bindThemeParamsCssVars();
     }),
     mountViewport.isAvailable() && mountViewport().then(() => {
+      requestFullscreen();
       bindViewportCssVars();
     }),
   ]);
+
+  
 }

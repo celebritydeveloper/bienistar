@@ -8,8 +8,8 @@ if (import.meta.env.DEV) {
     const themeParams = {
       accent_text_color: "#6ab2f2",
       bg_color: "#17212b",
-      button_color: "#5288c1",
-      button_text_color: "#ffffff",
+      button_color: "#000000",
+      button_text_color: "#000000",
       destructive_text_color: "#ec3942",
       header_bg_color: "#17212b",
       hint_color: "#708499",
@@ -58,6 +58,8 @@ if (import.meta.env.DEV) {
         // look something like this (a correctly encoded URL search params):
         // ```
         // user=%7B%22id%22%3A279058397%2C%22first_name%22%3A%22Vladislav%22%2C%22last_name%22...
+        //Use this token to access the HTTP API:7779801950:AAFRqkjfClVg3h4sLFzLZzMCeVMs8wX5-Ss
+
         // ```
         // But in case you don"t really need a valid init data, use this one:
         ["tgWebAppData", new URLSearchParams([

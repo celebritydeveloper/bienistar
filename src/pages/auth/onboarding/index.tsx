@@ -1,34 +1,32 @@
-import { Section, Cell, Image, List, LargeTitle } from "@telegram-apps/telegram-ui";
+import { Text, Button } from "@telegram-apps/telegram-ui";
 
 import { Page } from "@/components/Page.jsx";
+import "./onboarding.css";
 
-import tonSvg from "./ton.svg";
+import { bem } from "@/css/bem.ts";
+
+const [, e] = bem("onboard");
+
 
 export default function OnboardingPage() {
   return (
     <Page back={false}>
-      <div  className="bg-image h-screen pb-5 px-5">
-        <LargeTitle
-          weight="2"
-          plain={false}
-          className="uppercase"
-        >
-          Exercise.
-        </LargeTitle>
-        <LargeTitle
-          weight="2"
-          plain={false}
-          className="uppercase pl-2"
-        >
-          Eat.
-        </LargeTitle>
-        <LargeTitle
-          weight="2"
-          plain={false}
-          className="uppercase"
-        >
-          Energize.
-        </LargeTitle>
+      <div className={e("bg-image")}>
+        <h2 className={e("title")}>Exercise.</h2>
+        <h2 className={e("title")}>Earn.</h2>
+        <h2 className={e("title")}>Energize.</h2>
+
+        <div className="w-full">
+          <Text className={e("sub-title")}>Get tailored made meals, exercises and earn while at it</Text>
+          <Button
+            size="l"
+            mode="filled"
+            stretched={true}
+            className={e("button")}
+          >
+            Get Started
+          </Button>
+        </div>
       </div>
     </Page>
   );

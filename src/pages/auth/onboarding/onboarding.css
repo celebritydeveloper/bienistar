@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "NeuBlack";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Black.ttf");
+  }
+  
+  @font-face {
+    font-family: "NueBold";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "NueRegular";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "NueExtraBlack";
+    src: url("../../../assets/fonts/NeueHaasUnicaPro-XBlack.ttf");
+  }
+  
+  
+  .NeuBlack {
+    font-family: "NeuBlack";
+  }
+  
+  .NueBold {
+    font-family: "NueBold";
+  }
+  
+  .NueRegular {
+    font-family: "NueRegular";
+  }
+  
+  .NueExtraBlack {
+    font-family: "NueExtraBlack";
+  }
+
+.onboard__bg-image {
+    background-image: linear-gradient(
+        to bottom left, 
+        rgba(22, 19, 19, 0.7), 
+        rgba(30, 30, 30, 0.9)
+    ), url("../../../assets/images/onboard.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: end;
+    align-items: start;
+    padding: 0 20px 20px 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.onboard__title {
+    color: "white";
+    font-family: "NeuBlack";
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.onboard__sub-title {
+    color: "white";
+    font-family: "NueRegular";
+    font-size: 16px;
+}
+
+.onboard__button {
+    background-color: white;
+    color: "black";
+    font-family: "NueBold";
+    font-size: 18px;
+    height: 60px;
+    margin-top: 20px;
+}
