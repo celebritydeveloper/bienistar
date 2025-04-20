@@ -1,10 +1,5 @@
 import type { ComponentType, JSX } from "react";
-import { InitDataPage } from "@/pages/InitDataPage.tsx";
-import { LaunchParamsPage } from "@/pages/LaunchParamsPage.tsx";
-import { ThemeParamsPage } from "@/pages/ThemeParamsPage.tsx";
-import { TONConnectPage } from "@/pages/TONConnectPage/TONConnectPage";
 import OnboardingPage from "@/pages/auth/onboarding";
-import React from "react";
 import HomeTab from "@/pages/tabs/home";
 import EarnTab from "@/pages/tabs/earn";
 

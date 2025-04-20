@@ -1,13 +1,8 @@
 import {useState, FC} from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import { Tabbar, Text } from "@telegram-apps/telegram-ui";
-import { House, Coins, Users, Wallet, Dumbbell } from "lucide-react";
-import { bem } from "@/css/bem.ts";
+import { useLocation } from "react-router-dom";
+import { House, Users, Wallet, Dumbbell } from "lucide-react";
 import { Link } from "../Link/Link";
 import "./index.css"
-
-const [, e] = bem("nav");
-
 
 
 const MobileNav: FC = () => {

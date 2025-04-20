@@ -1,5 +1,5 @@
 import MobileNav from "@/components/layout/MobileNav";
-import React, { useState, FC, ReactNode, ReactElement } from "react";
+import React, { useState, ReactNode } from "react";
 //import * as Components from "../../components";
 // import { NotificationContext } from "../../context/notification-context";
 // import { RewardContext } from "../../context/daily-reward-context";
@@ -15,7 +15,7 @@ const LoggedIn = (props: { children: ReactNode | ReactNode[] }) => {
   // const { requestMaker } = useRequest();
   // const { notification, hideNotification } = useContext(NotificationContext);
   // const { reward, hideReward } = useContext(RewardContext);
-  const [userAccountStatus, setUserAccountStatus] = useState(true);
+  const [userAccountStatus] = useState(true);
 
   // useEffect(() => {
   //   requestMaker(createGetUserRequest())

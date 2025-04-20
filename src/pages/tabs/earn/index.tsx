@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import { Avatar, Button, Cell, List, Text } from "@telegram-apps/telegram-ui";
+import { Avatar, Button, List, Text } from "@telegram-apps/telegram-ui";
 import { Page } from "@/components/Page.tsx";
 import LoggedIn from "@/pages/auth/loggedIn/logged-in";
 import "./index.css";
