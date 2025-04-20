@@ -15,21 +15,42 @@ export default function OnboardingPage() {
   return (
     <Page back={false}>
       <div className={e("bg-image")}>
-        <h2 className={e("title")}>Exercise.</h2>
-        <h2 className={e("title")}>Earn.</h2>
-        <h2 className={e("title")}>Energize.</h2>
+        <h2 
+          style={{ color: "white", fontFamily: "NeuBlack", textTransform: "uppercase",
+            fontSize: "50px",
+            lineHeight: 1.2}}
+        >
+        Exercise.</h2>
+        <h2
+          style={{ color: "white", fontFamily: "NeuBlack", textTransform: "uppercase",
+            fontSize: "50px",
+            lineHeight: 1.2}}
+        >Earn.</h2>
+        <h2
+          style={{ color: "white", fontFamily: "NeuBlack", textTransform: "uppercase",
+            fontSize: "50px",
+            lineHeight: 1.2}}
+        >Energize.</h2>
 
         <div className="w-full">
-          <Text className={e("sub-title")}>Get tailored made meals, exercises and earn while at it</Text>
+          <Text style={{color: "white",
+              fontFamily: "NueRegular",
+              fontSize: "16px"}}>Get tailored made meals, exercises and earn while at it</Text>
           <Button
             size="l"
             mode="filled"
             stretched={true}
-            className={e("button")}
+            style={{
+              backgroundColor: "white",
+              fontSize: "16px",
+              height:" 60px",
+              marginTop: "20px"}}
             onClick={() => navigate("/tabs/home")}
             type="button"
           >
-            Get Started
+            <Text style={{color: "black",
+              fontFamily: "NueBold",
+              fontSize: "18px"}}>Get Started</Text>
           </Button>
         </div>
       </div>

@@ -14,7 +14,7 @@ const EarnTab: FC = () => {
   return (
     <Page>
       <LoggedIn>
-        <div   className="page tasks-page">
+        <div className="page tasks-page">
           <div className="header">
             <span className="title">Earn <sup data-v-8d39a879="">155</sup></span>
           </div>

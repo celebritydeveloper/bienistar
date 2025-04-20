@@ -2,23 +2,24 @@
 
 @font-face {
   font-family: "NeuBlack";
-  src: url("./assets/fonts/NeueHaasUnicaPro-Black.ttf");
+  src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170564/NeueHaasUnicaPro-Black_lykpcn.ttf");
 }
 
 @font-face {
-  font-family: "NeuBold";
-  src: url("./assets/fonts/NeueHaasUnicaPro-Bold.ttf");
+  font-family: "NueBold";
+  src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170589/NeueHaasUnicaPro-Bold_gi7grt.ttf");
 }
 
 @font-face {
-  font-family: "NeuRegular";
-  src: url("./assets/fonts/NeueHaasUnicaPro-Regular.ttf");
+  font-family: "NueRegular";
+  src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170617/NeueHaasUnicaPro-Regular_dcuvzu.ttf");
 }
 
 @font-face {
-  font-family: "NeuExtraBlack";
-  src: url("./assets/fonts/NeueHaasUnicaPro-XBlack.ttf");
+  font-family: "NueExtraBlack";
+  src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170635/NeueHaasUnicaPro-XBlack_zc5azf.ttf");
 }
+
 
 
 .NeuBlack {
@@ -77,8 +78,8 @@ body {
   max-width: 100%;
   min-height: calc(100dvh + 1px);
   overflow: hidden;
-  padding-bottom: calc(60px + var(--bottom-safe));
-  padding-top: calc(24px + var(--tg-safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
+  padding-bottom: calc(100px + var(--bottom-safe));
+  padding-top: calc(80px + var(--tg-safe-area-inset-top, 0px) + var(--tg-content-safe-area-inset-top, 0px));
   width:100%
 }
 
@@ -224,12 +225,12 @@ i.trophy {
 
 :root {
   --bottom-safe: calc(var(--lvh, 100vh) - var(--tg-viewport-height, 100vh));
-  --tabs-height:calc(64px + var(--bottom-safe))
+  --tabs-height: calc(100px + var(--bottom-safe))
 }
 
-:root[data-platform=android], :root[data-platform=android_x] {
+/* :root[data-platform=android], :root[data-platform=android_x] {
   --tabs-height:calc(120px + var(--bottom-safe))
-}
+} */
 
 .kit-icon {
   color: #a6a6a6;
@@ -345,14 +346,7 @@ i.trophy {
   }
 }
 
-:root {
-  --bottom-safe: calc(var(--lvh, 100vh) - var(--tg-viewport-height, 100vh));
-  --tabs-height:calc(64px + var(--bottom-safe))
-}
 
-:root[data-platform=android] :root[data-platform=android_x]{
-  --tabs-height:calc(120px + var(--bottom-safe))
-}
 
 .tabs {
   background-color: red;
@@ -636,14 +630,6 @@ i.trophy {
   }
 }
 
-[data-v-84322842]:root {
-  --bottom-safe: calc(var(--lvh, 100vh) - var(--tg-viewport-height, 100vh));
-  --tabs-height:calc(64px + var(--bottom-safe))
-}
-
-:root[data-platform=android][data-v-84322842], :root[data-platform=android_x][data-v-84322842] {
-  --tabs-height:calc(120px + var(--bottom-safe))
-}
 
 .pages-tasks-subtasks-modal.has-share[data-v-84322842] {
   margin-top:-24px

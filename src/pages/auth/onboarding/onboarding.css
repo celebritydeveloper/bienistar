@@ -1,21 +1,21 @@
 @font-face {
     font-family: "NeuBlack";
-    src: url("../../../assets/fonts/NeueHaasUnicaPro-Black.ttf");
+    src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170564/NeueHaasUnicaPro-Black_lykpcn.ttf");
   }
   
   @font-face {
     font-family: "NueBold";
-    src: url("../../../assets/fonts/NeueHaasUnicaPro-Bold.ttf");
+    src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170589/NeueHaasUnicaPro-Bold_gi7grt.ttf");
   }
   
   @font-face {
     font-family: "NueRegular";
-    src: url("../../../assets/fonts/NeueHaasUnicaPro-Regular.ttf");
+    src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170617/NeueHaasUnicaPro-Regular_dcuvzu.ttf");
   }
   
   @font-face {
     font-family: "NueExtraBlack";
-    src: url("../../../assets/fonts/NeueHaasUnicaPro-XBlack.ttf");
+    src: url("https://res.cloudinary.com/dzlx5cw7g/raw/upload/v1745170635/NeueHaasUnicaPro-XBlack_zc5azf.ttf");
   }
   
   
@@ -40,7 +40,7 @@
         to bottom left, 
         rgba(22, 19, 19, 0.7), 
         rgba(30, 30, 30, 0.9)
-    ), url("../../../assets/images/onboard.jpg");
+    ), url("https://res.cloudinary.com/dzlx5cw7g/image/upload/v1745170254/pexels-tima-miroshnichenko-6389080_l0fd3c.jpg");
     background-size: cover;
     background-position: center;
     display: flex;

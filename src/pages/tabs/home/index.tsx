@@ -7,7 +7,9 @@ const HomeTab: FC = () => {
   return (
     <Page>
       <LoggedIn>
-        <Text>Hello</Text>
+        <div className="page tasks-page">
+          <Text>Hello</Text>
+        </div>
       </LoggedIn>
     </Page>
   );
