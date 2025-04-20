@@ -1,5 +1,20 @@
+@import "tailwindcss";
+
 body {
   background: var(--tg-theme-secondary-bg-color, white);
   padding: 0;
   margin: 0;
+}
+
+
+.bg-image {
+  background-image: url("./assets//images/onboard.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  overflow: hidden;
+  width: 100%;
 }

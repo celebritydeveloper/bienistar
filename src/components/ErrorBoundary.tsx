@@ -4,7 +4,7 @@ import {
   type GetDerivedStateFromError,
   type PropsWithChildren,
   type ReactNode,
-} from 'react';
+} from "react";
 
 export interface ErrorBoundaryProps extends PropsWithChildren {
   fallback?: ReactNode | ComponentType<{ error: unknown }>;
@@ -35,8 +35,8 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
       },
     } = this;
 
-    return 'error' in this.state
-      ? typeof Fallback === 'function'
+    return "error" in this.state
+      ? typeof Fallback === "function"
         ? <Fallback error={error} />
         : Fallback
       : children;

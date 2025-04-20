@@ -4,9 +4,9 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'eslint:recommended',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:react/recommended'
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended"
   ],
   overrides: [
     {
@@ -14,23 +14,23 @@ module.exports = {
         node: true
       },
       files: [
-        '.eslintrc.{js,cjs}'
+        ".eslintrc.{js,cjs}"
       ],
       parserOptions: {
-        'sourceType': 'script'
+        "sourceType": "script"
       }
     }
   ],
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
   plugins: [
-    '@typescript-eslint',
-    'react'
+    "@typescript-eslint",
+    "react"
   ],
   rules: {
-    'react/react-in-jsx-scope': 0,
+    "react/react-in-jsx-scope": 0,
   }
 };

@@ -1,9 +1,9 @@
-import { themeParams, useSignal } from '@telegram-apps/sdk-react';
-import type { FC } from 'react';
-import { List } from '@telegram-apps/telegram-ui';
+import { themeParams, useSignal } from "@telegram-apps/sdk-react";
+import type { FC } from "react";
+import { List } from "@telegram-apps/telegram-ui";
 
-import { DisplayData } from '@/components/DisplayData/DisplayData.tsx';
-import { Page } from '@/components/Page.tsx';
+import { DisplayData } from "@/components/DisplayData/DisplayData.tsx";
+import { Page } from "@/components/Page.tsx";
 
 export const ThemeParamsPage: FC = () => {
   const tp = useSignal(themeParams.state);
@@ -18,7 +18,7 @@ export const ThemeParamsPage: FC = () => {
               .map(([title, value]) => ({
                 title: title
                   .replace(/[A-Z]/g, (m) => `_${m.toLowerCase()}`)
-                  .replace(/background/, 'bg'),
+                  .replace(/background/, "bg"),
                 value,
               }))
           }
